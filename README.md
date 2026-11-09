@@ -39,7 +39,7 @@
 | `config/` | Ghostty and Starship, both Gruvbox Dark, FantasqueSansM Nerd Font |
 | `claude/` | Claude Code settings and the powerline status line |
 | `bernard/` | the persona. More on him below |
-| `Brewfile` | 89 entries, trimmed by hand. Every one of them earns its place |
+| `Brewfile` | 64 entries, trimmed by hand. Every one of them earns its place |
 | `install.sh` | links the lot, backs up anything real it would replace |
 
 ## Meet Bernard
