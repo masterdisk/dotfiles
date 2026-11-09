@@ -86,7 +86,7 @@ def banner():
                 f'<rect class="caret" x="{cx:.1f}" y="{cy-14}" width="{CW:.1f}" height="19" fill="{G["fg"]}"/></g>')
 
     # install output, one line at a time
-    lines = [("==>", G["blue"], "homebrew", "65 packages, zero regrets"),
+    lines = [("==>", G["blue"], "homebrew", "62 packages, zero regrets"),
              ("==>", G["blue"], "oh-my-zsh", "autosuggestions + syntax highlighting"),
              ("==>", G["blue"], "dotfiles", "linked, anything real backed up first"),
              ("==>", G["blue"], "bernard", "claude · codex · agy · grok · cursor"),

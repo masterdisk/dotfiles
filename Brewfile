@@ -66,9 +66,6 @@ cask "whatsapp"
 # design + docs
 cask "figma"
 cask "notion"
-mas "Keynote", id: 361285480
-mas "Numbers", id: 361304891
-mas "Pages", id: 361309726
 
 # media
 cask "spotify"
