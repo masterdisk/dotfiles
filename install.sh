@@ -57,7 +57,7 @@ link claude/claude-powerline.json "$HOME/.claude/claude-powerline.json"
 [ -f "$HOME/.claude/settings.json" ] || cp "$DOT/claude/settings.json" "$HOME/.claude/settings.json"
 
 echo "== yarn (pnpm comes from the Brewfile)"
-npm install -g yarn
+npm install -g --allow-scripts=yarn yarn
 
 echo "== macOS bits you had changed"
 defaults write com.apple.finder AppleShowAllFiles -bool true
