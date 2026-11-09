@@ -76,13 +76,10 @@ Settings > Rules > User Rules. Rerun `install.sh` after editing to refresh it.
 
 ```bash
 # 1. sign into the App Store first, the mas lines need it
-# 2. ssh key in place
-chmod 700 ~/.ssh && chmod 600 ~/.ssh/*
+# 2. the one command, no ssh key needed
+git clone https://github.com/masterdisk/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh
 
-# 3. the one command
-git clone git@github.com:masterdisk/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh
-
-# 4. then
+# 3. then pick SSH and let gh make and upload a key for this Mac
 gh auth login
 exec zsh
 ```
