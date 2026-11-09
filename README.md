@@ -39,7 +39,7 @@
 | `config/` | Ghostty and Starship, both Gruvbox Dark, FantasqueSansM Nerd Font |
 | `claude/` | Claude Code settings and the powerline status line |
 | `bernard/` | the persona. More on him below |
-| `Brewfile` | 64 entries, trimmed by hand. Every one of them earns its place |
+| `Brewfile` | 65 entries, trimmed by hand. Every one of them earns its place |
 | `install.sh` | links the lot, backs up anything real it would replace |
 
 ## Meet Bernard
@@ -88,7 +88,7 @@ exec zsh
 <summary><b>What install.sh actually does</b></summary>
 <br>
 
-1. Homebrew, then trusts `hashicorp/tap` (brew 7 won't load it otherwise)
+1. Homebrew, then trusts the hashicorp and tflint taps (brew 7 won't load them otherwise)
 2. `brew bundle`: CLIs, apps, App Store, global npm tools
 3. oh-my-zsh with autosuggestions and syntax highlighting
 4. Symlinks every dotfile, moving anything real out of the way first

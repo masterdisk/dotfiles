@@ -19,7 +19,9 @@ fi
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="/opt/homebrew/opt/node@24/bin:$PATH"   # the Brewfile npm lines need it
 
-brew tap hashicorp/tap && brew trust hashicorp/tap   # brew 7 refuses third-party taps until trusted
+for t in hashicorp/tap terraform-linters/tap; do   # brew 7 refuses third-party taps until trusted
+  brew tap "$t" && brew trust "$t"
+done
 
 echo "== brew bundle (mas apps need you signed into the App Store first)"
 brew bundle --file="$DOT/Brewfile" || echo "!! some bundle entries failed, rerun later with: brew bundle --file=$DOT/Brewfile"

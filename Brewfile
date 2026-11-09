@@ -1,4 +1,5 @@
-tap "hashicorp/tap"   # install.sh trusts it first, brew 7 won't load it otherwise
+tap "hashicorp/tap"             # install.sh trusts both taps first,
+tap "terraform-linters/tap"     # brew 7 won't load them otherwise
 
 # shell + terminal
 brew "zsh"
@@ -10,7 +11,7 @@ brew "eza"
 brew "bat"
 brew "fd"
 brew "ripgrep"
-brew "tldr"
+brew "tlrc"   # gives you `tldr`
 cask "ghostty"
 cask "font-fantasque-sans-mono-nerd-font"
 
@@ -25,7 +26,7 @@ brew "mas"
 # infra
 brew "hashicorp/tap/terraform"
 brew "terragrunt"
-brew "tflint"
+cask "terraform-linters/tap/tflint"
 cask "docker-desktop"
 
 # databases
