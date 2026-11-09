@@ -1,0 +1,18 @@
+[core]
+    autocrlf = input
+    excludesfile = ~/.gitignore_global
+
+# Default: personal identity
+[include]
+    path = ~/.gitconfig-personal
+
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+
+# machine-specific extras, not in this repo (git skips it if missing)
+[include]
+    path = ~/.gitconfig.local

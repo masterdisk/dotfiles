@@ -1,0 +1,10 @@
+# Gruvbox Dark - clean setup
+font-family = "FantasqueSansM Nerd Font Mono"
+font-size = 14
+theme = "Gruvbox Dark"
+window-padding-x = 10
+window-padding-y = 10
+cursor-style = block
+cursor-style-blink = false
+macos-option-as-alt = true
+keybind = shift+enter=text:\x1b\r

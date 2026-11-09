@@ -1,0 +1,119 @@
+{
+  "theme": "custom",
+  "display": {
+    "padding": 1,
+    "style": "powerline",
+    "charset": "unicode",
+    "colorCompatibility": "auto",
+    "autoWrap": true,
+    "lines": [
+      {
+        "segments": {
+          "directory": {
+            "enabled": true,
+            "style": "fish"
+          },
+          "git": {
+            "enabled": true,
+            "showSha": false,
+            "showWorkingTree": true,
+            "showOperation": true,
+            "showTag": false,
+            "showTimeSinceCommit": false,
+            "showStashCount": true,
+            "showUpstream": true,
+            "showRepoName": false
+          },
+          "model": {
+            "enabled": true
+          },
+          "context": {
+            "enabled": true,
+            "showPercentageOnly": false,
+            "displayStyle": "text"
+          },
+          "session": {
+            "enabled": true,
+            "type": "both",
+            "costSource": "calculated"
+          },
+          "metrics": {
+            "enabled": true,
+            "showResponseTime": false,
+            "showLastResponseTime": false,
+            "showDuration": true,
+            "showMessageCount": true,
+            "showLinesAdded": true,
+            "showLinesRemoved": true
+          }
+        }
+      }
+    ]
+  },
+  "colors": {
+    "custom": {
+      "directory": {
+        "bg": "#d65d0e",
+        "fg": "#fbf1c7"
+      },
+      "git": {
+        "bg": "#98971a",
+        "fg": "#fbf1c7"
+      },
+      "model": {
+        "bg": "#458588",
+        "fg": "#fbf1c7"
+      },
+      "session": {
+        "bg": "#b16286",
+        "fg": "#fbf1c7"
+      },
+      "context": {
+        "bg": "#3c3836",
+        "fg": "#ebdbb2"
+      },
+      "contextWarning": {
+        "bg": "#d79921",
+        "fg": "#282828"
+      },
+      "contextCritical": {
+        "bg": "#cc241d",
+        "fg": "#fbf1c7"
+      },
+      "metrics": {
+        "bg": "#665c54",
+        "fg": "#ebdbb2"
+      },
+      "block": {
+        "bg": "#689d6a",
+        "fg": "#fbf1c7"
+      },
+      "today": {
+        "bg": "#d79921",
+        "fg": "#282828"
+      },
+      "version": {
+        "bg": "#504945",
+        "fg": "#a89984"
+      },
+      "tmux": {
+        "bg": "#504945",
+        "fg": "#ebdbb2"
+      }
+    }
+  },
+  "budget": {
+    "session": {
+      "warningThreshold": 80
+    },
+    "today": {
+      "amount": 5.0,
+      "warningThreshold": 80
+    },
+    "block": {
+      "amount": 20000000,
+      "type": "tokens",
+      "warningThreshold": 80
+    }
+  }
+}

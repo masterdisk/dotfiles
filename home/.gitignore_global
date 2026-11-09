@@ -1,0 +1,25 @@
+# claude + agent tooling
+.claude/
+.claude-flow/
+CLAUDE.md
+memory/
+.mcp.json*
+.playwright-mcp/
+.serena/
+.swarm/
+.hive-mind/
+.conductor/
+.orca/
+orca.yaml
+.worktreeinclude
+
+# JetBrains / WebStorm
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+# Yarn PnP (Berry)
+.yarn/
+.pnp.*
